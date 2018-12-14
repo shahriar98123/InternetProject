@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1096A39721C4363D008473DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096A39621C4363D008473DD /* AppDelegate.swift */; };
-		1096A39921C4363D008473DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096A39821C4363D008473DD /* ViewController.swift */; };
+		1096A39921C4363D008473DD /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096A39821C4363D008473DD /* InternetDetailViewController.swift */; };
 		1096A39C21C4363D008473DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1096A39A21C4363D008473DD /* Main.storyboard */; };
 		1096A39E21C43641008473DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1096A39D21C43641008473DD /* Assets.xcassets */; };
-		1096A3A121C43641008473DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1096A39F21C43641008473DD /* LaunchScreen.storyboard */; };
+		1096A3A921C43DA4008473DD /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096A3A821C43DA4008473DD /* InternetDetailViewController.swift */; };
+		1096A3AE21C44555008473DD /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096A3AD21C44555008473DD /* InternetMasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1096A39321C4363D008473DD /* InternetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1096A39621C4363D008473DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1096A39821C4363D008473DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1096A39821C4363D008473DD /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		1096A39B21C4363D008473DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1096A39D21C43641008473DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1096A3A021C43641008473DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1096A3A221C43641008473DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1096A3A821C43DA4008473DD /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		1096A3AD21C44555008473DD /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				1096A39521C4363D008473DD /* InternetProject */,
+				1096A3AA21C43DC6008473DD /* Controller */,
 				1096A39421C4363D008473DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +57,38 @@
 		1096A39521C4363D008473DD /* InternetProject */ = {
 			isa = PBXGroup;
 			children = (
-				1096A39621C4363D008473DD /* AppDelegate.swift */,
-				1096A39821C4363D008473DD /* ViewController.swift */,
-				1096A39A21C4363D008473DD /* Main.storyboard */,
-				1096A39D21C43641008473DD /* Assets.xcassets */,
-				1096A39F21C43641008473DD /* LaunchScreen.storyboard */,
-				1096A3A221C43641008473DD /* Info.plist */,
+				1096A39821C4363D008473DD /* InternetDetailViewController.swift */,
+				1096A3AB21C43DD7008473DD /* View */,
+				1096A3AC21C43E96008473DD /* Resources */,
 			);
 			path = InternetProject;
+			sourceTree = "<group>";
+		};
+		1096A3AA21C43DC6008473DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1096A3A821C43DA4008473DD /* InternetDetailViewController.swift */,
+				1096A3AD21C44555008473DD /* InternetMasterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1096A3AB21C43DD7008473DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1096A39A21C4363D008473DD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1096A3AC21C43E96008473DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1096A39D21C43641008473DD /* Assets.xcassets */,
+				1096A39621C4363D008473DD /* AppDelegate.swift */,
+				1096A3A221C43641008473DD /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +149,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1096A3A121C43641008473DD /* LaunchScreen.storyboard in Resources */,
 				1096A39E21C43641008473DD /* Assets.xcassets in Resources */,
 				1096A39C21C4363D008473DD /* Main.storyboard in Resources */,
 			);
@@ -135,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1096A39921C4363D008473DD /* ViewController.swift in Sources */,
+				1096A39921C4363D008473DD /* InternetDetailViewController.swift in Sources */,
+				1096A3AE21C44555008473DD /* InternetMasterViewController.swift in Sources */,
+				1096A3A921C43DA4008473DD /* InternetDetailViewController.swift in Sources */,
 				1096A39721C4363D008473DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,14 +177,6 @@
 				1096A39B21C4363D008473DD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1096A39F21C43641008473DD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1096A3A021C43641008473DD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,7 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InternetProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InternetProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InternetProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InternetProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
