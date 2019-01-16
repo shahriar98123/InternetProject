@@ -12,7 +12,7 @@
 		1096A39E21C43641008473DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1096A39D21C43641008473DD /* Assets.xcassets */; };
 		1096A3A921C43DA4008473DD /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096A3A821C43DA4008473DD /* InternetDetailViewController.swift */; };
 		1096A3AE21C44555008473DD /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096A3AD21C44555008473DD /* InternetMasterViewController.swift */; };
-		109E505821EFCF17004028F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109E505621EFCF17004028F9 /* Main.storyboard */; };
+		109E505A21EFD549004028F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109E505921EFD547004028F9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		1096A3A221C43641008473DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1096A3A821C43DA4008473DD /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		1096A3AD21C44555008473DD /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
-		109E505721EFCF17004028F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Desktop/InternetProject-master/InternetProject/View/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		109E505921EFD547004028F9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../Desktop/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		1096A3AB21C43DD7008473DD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				109E505621EFCF17004028F9 /* Main.storyboard */,
+				109E505921EFD547004028F9 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109E505A21EFD549004028F9 /* Main.storyboard in Resources */,
 				1096A39E21C43641008473DD /* Assets.xcassets in Resources */,
-				109E505821EFCF17004028F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,17 +169,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		109E505621EFCF17004028F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				109E505721EFCF17004028F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1096A3A321C43641008473DD /* Debug */ = {
